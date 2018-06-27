@@ -1,0 +1,100 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+.margin10{
+    margin: 10px;
+}
+
+.lightBG{
+    background: #8e24aa;
+    height: 100%
+}
+
+.deepGrey{
+    padding: 20px;
+    background: #bdbdbd
+}
+
+.full{
+    height: 100%;
+}
+
+.padded10{
+    padding: 10px 10px 10px 10px
+}
+
+.topMargin10{
+    margin-top: 10px
+}
+
+.topMargin20{
+    margin-top: 20px
+}
+
+.blueText {
+    color: #2196f3;
+}
+
+.img-circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 120px;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    /*box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);*/
+    transition: 0.3s;
+    border-radius: 10px;
+    padding: 10px;
+    background: #fafafa;
+}
+
+.full{
+    height: 100%;
+}
+.specialText{
+    font-family: "Trebuchet MS";
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);    
+}

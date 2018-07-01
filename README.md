@@ -20,5 +20,4 @@ Then run
 
 
 For more information about the project file structure. Visit
-
-
+https://steemit.com/utopian-io/@feekayo/dbooks-org-frontend-documentation-1-basic-directory-structure-description
